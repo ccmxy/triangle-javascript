@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Triangle</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>The Triangle Typifier</h1>
+
+      <form id="choose-sides">
+        <div class="form-group">
+          <label for="sideOne">Enter side one length:</label>
+          <input id="sideOne" type="text">
+          <label for="sideTwo">Enter side two length:</label>
+          <input id="sideTwo" type="text">
+          <label for="sideThree">Enter side three length:</label>
+          <input id="sideThree" type="text">
+        </div>
+
+        <button type="submit" class="btn">Find out!</button>
+      </form>
+      <div id="isNotTriangle">
+        <p>Sorry, but that is not a valid triangle.</p>
+      </div>
+
+      <div id="showTri">
+        <p>You described a <span class="typeOfTriangle"></span> triangle!</p>
+      </div>
+
+      <div id="testBetterFunction">
+        <p>A<span class="betterType"></span> is a great triangle to have!</p>
+      </div>
+
+    </div>
+  </body>
+</html>
